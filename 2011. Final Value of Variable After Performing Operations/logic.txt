@@ -1,0 +1,9 @@
+In the given `finalValueAfterOperations` function:
+
+1. You initialize the variable `X` to 0.
+2. Then, you iterate through each element in the `operations` vector.
+3. For each element, you check if it's either `"X++"` or `"++X"`. If it is, you increment the value of `X` by 1.
+4. If the element is either `"X--"` or `"--X"`, you decrement the value of `X` by 1.
+5. After processing all elements in the `operations` vector, you return the final value of `X`.
+
+In summary, the function calculates the final value of `X` by performing the operations specified in the `operations` vector, where `"X++"` and `"++X"` increment `X`, and `"X--"` and `"--X"` decrement `X`.
