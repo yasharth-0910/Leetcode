@@ -43,5 +43,5 @@ Example 3:
 
 Constraints:
 
-1 <= operations.length <= 100
-operations[i] will be either "++X", "X++", "--X", or "X--".
+    1 <= operations.length <= 100
+    operations[i] will be either "++X", "X++", "--X", or "X--".
