@@ -6,6 +6,8 @@ Now i used a while loop, where i reversed the number:
             remainder = x % 10;
             reverse = reverse * 10 + remainder;
             x /= 10;
-        }```
+        }
+```
+
 and if `original == reverse` then we return `true`
   
