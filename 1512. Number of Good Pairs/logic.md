@@ -1,0 +1,1 @@
+The approach involves using nested loops to iterate through each pair of elements in the array. For each pair (i, j) where i < j, we check if nums[i] is equal to nums[j]. If they are equal, we increment a counter to keep track of the number of good pairs found. After iterating through all pairs, we return the total count of good pairs.
